@@ -50,7 +50,9 @@ def monopoly_with_fourth_tier
 	      :shortline_railroad => {},
 	      :b_and_o_railroad => {},
 	      :pennsylvania_railroad => {},
-	      :reading_railroad => {}
+	      :reading_railroad => {
+	        "mortgage_value" => $100
+	      }
 	  },
 	 :rent_in_dollars => {
 	      :one_piece_owned => 25,
