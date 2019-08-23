@@ -27,7 +27,8 @@ def monopoly_with_third_tier
 	      :k5 => 5,
 	      :k6 => 6,
 	      :k7 => 7,
-	      :k8 => 8
+	      :k8 => 8,
+	      :reading_railroads => {}
 	  },
 	 :rent_in_dollars => {
 	      :one_piece_owned => 25,
