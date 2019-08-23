@@ -22,11 +22,18 @@ def monopoly_with_third_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   	monopoly = {
-	  :railroads => {:pieces => 4, :names => 3, :rent_in_dollars => {
-	    :k1 => 1,
-	    :k2 => 2,
-	    :k3 => 3,
-	    :k4 => 4
+	  :railroads => {:pieces => 4, 
+	  :names => {
+	      :k5 => 5,
+	      :k6 => 6,
+	      :k7 => 7,
+	      :k8 => 8
+	  }
+	 :rent_in_dollars => {
+	      :k1 => 1,
+	      :k2 => 2,
+	      :k3 => 3,
+	      :k4 => 4
 	  }
 	 }
 	}
